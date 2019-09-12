@@ -10,7 +10,13 @@
 	<filter>
   		<whitelist processUncoveredFilesFromWhitelist="true">
 			<directory suffix=".php">inc/</directory>
+			<exclude>
+				<file>class-main.php</file>
+				<file>class-success.php</file>
+				<file>class-errors.php</file>
+			</exclude>
   		</whitelist>
+
 	</filter>
 	<testsuites>
 		<testsuite name="my-gallery-models">
