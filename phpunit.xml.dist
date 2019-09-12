@@ -14,6 +14,8 @@
 				<file>inc/classes/class-main.php</file>
 				<file>inc/classes/class-menu-config.php</file>
 				<file>inc/classes/class-menu-page.php</file>
+				<file>inc/classes/class-post-factory.php</file>
+				<file>inc/classes/class-shortcode-factory.php</file>
 				<file>inc/classes/class-success.php</file>
 				<file>inc/classes/class-errors.php</file>
 			</exclude>
