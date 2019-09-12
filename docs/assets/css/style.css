@@ -1,0 +1,51 @@
+html,body{
+    margin:0;
+    padding:0;
+}
+
+.header{
+    width:100%;
+    overflow: hidden;
+    background-color: black;
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+.content-main{
+    width:920px;
+    min-width:300px;
+}
+.content-main p{
+    text-align:center;
+}
+.content-main h1{
+    text-align:center;
+    font-family: "Helvetica Neue",HelveticaNeue,Helvetica,Arial,sans-serif;
+    font-weight: 200;
+    font-size:38px;
+}
+.demo-testimonials{
+    font-family: "Helvetica Neue",HelveticaNeue,Helvetica,Arial,sans-serif;
+    font-size:16px;
+ 
+    font-weight: 300;
+
+    color:rgba(0,0,0,0.7);
+}
+.my-gallery-plugin-title{
+    font-family: "Helvetica Neue",HelveticaNeue,Helvetica,Arial,sans-serif;
+    font-weight: 200;
+    color:rgba(0,0,0,0.6);
+}
+.my-gallery-plugin-container{
+    margin:40px 0 50px;
+  ;
+}
+
+.my-gallery-plugin-container img{
+    max-width: 100%;
+    height: auto;
+}
+
+

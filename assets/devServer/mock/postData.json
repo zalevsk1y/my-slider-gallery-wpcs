@@ -1,0 +1,87 @@
+{
+    "id":531,
+    "selectedShortcode":false,
+    "currentEditShortcode":false,
+    "shortcodes":[
+        {   "status":"saved",
+            "postId":0,
+            "code":{
+                "ids":"ids='531,532,533,534,535,536,537,538,539,540,541,542,543,544,545",
+                "config":"",
+                "misc":""
+            },
+            "images":[
+                {"id":"531","url":"http://192.168.137.148/wpblog1/wp-content/plugins/my-gallery/public/images/banner_header_small2.png"},
+                {"id":"532","url":"http://192.168.137.148/wpblog1/wp-content/plugins/my-gallery/public/images/banner_header_small2.png"},
+                {"id":"533","url":"http://192.168.137.148/wpblog1/wp-content/plugins/my-gallery/public/images/banner_header_small2.png"},
+                {"id":"533","url":"http://192.168.137.148/wpblog1/wp-content/plugins/my-gallery/public/images/banner_header_small2.png"},
+                {"id":"534","url":"http://192.168.137.148/wpblog1/wp-content/plugins/my-gallery/public/images/banner_header_small2.png"},
+                {"id":"535","url":"http://192.168.137.148/wpblog1/wp-content/plugins/my-gallery/public/images/banner_header_small2.png"},
+                {"id":"536","url":"http://192.168.137.148/wpblog1/wp-content/plugins/my-gallery/public/images/banner_header_small2.png"},
+                {"id":"537","url":"http://192.168.137.148/wpblog1/wp-content/plugins/my-gallery/public/images/banner_header_small2.png"},
+                {"id":"538","url":"http://192.168.137.148/wpblog1/wp-content/plugins/my-gallery/public/images/banner_header_small2.png"},
+                {"id":"539","url":"http://192.168.137.148/wpblog1/wp-content/plugins/my-gallery/public/images/banner_header_small2.png"},
+                {"id":"540","url":"http://192.168.137.148/wpblog1/wp-content/plugins/my-gallery/public/images/banner_header_small2.png"},
+                {"id":"541","url":"http://192.168.137.148/wpblog1/wp-content/plugins/my-gallery/public/images/banner_header_small2.png"},
+                {"id":"542","url":"http://192.168.137.148/wpblog1/wp-content/plugins/my-gallery/public/images/banner_header_small2.png"},
+                {"id":"543","url":"http://192.168.137.148/wpblog1/wp-content/plugins/my-gallery/public/images/banner_header_small2.png"},
+                {"id":"544","url":"http://192.168.137.148/wpblog1/wp-content/plugins/my-gallery/public/images/banner_header_small2.png"},
+                {"id":"545","url":"http://192.168.137.148/wpblog1/wp-content/plugins/my-gallery/public/images/banner_header_small2.png"}
+            ],
+            "settings":{
+                "misc":{
+                "title":"",
+                "classes":""
+                },
+                "config":{
+                "galleryMode":true,
+                "loop":false,
+                "thumbsNumber":6,
+                "vertical":false,
+                "items":1
+                }
+            },
+            "_originalCode":"[my-gallery ids='531,532,533,534,535,536,537,538,539,540,541,542,543,544,545' ]"
+        },
+        {   "status":"saved",
+            "postId":0,
+            "code":{
+                "ids":"ids='531,532,533,534,535,536,537,538,539,540,541,542,543,544,545",
+                "config":"",
+                "misc":""
+            },
+            "images":[
+                {"id":"531","url":"http://192.168.137.148/wpblog1/wp-content/plugins/my-gallery/public/images/banner_header_small2.png"},
+                {"id":"532","url":"http://192.168.137.148/wpblog1/wp-content/plugins/my-gallery/public/images/banner_header_small2.png"},
+                {"id":"533","url":"http://192.168.137.148/wpblog1/wp-content/plugins/my-gallery/public/images/banner_header_small2.png"},
+                {"id":"533","url":"http://192.168.137.148/wpblog1/wp-content/plugins/my-gallery/public/images/banner_header_small2.png"},
+                {"id":"534","url":"http://192.168.137.148/wpblog1/wp-content/plugins/my-gallery/public/images/banner_header_small2.png"},
+                {"id":"535","url":"http://192.168.137.148/wpblog1/wp-content/plugins/my-gallery/public/images/banner_header_small2.png"},
+                {"id":"536","url":"http://192.168.137.148/wpblog1/wp-content/plugins/my-gallery/public/images/banner_header_small2.png"},
+                {"id":"537","url":"http://192.168.137.148/wpblog1/wp-content/plugins/my-gallery/public/images/banner_header_small2.png"},
+                {"id":"538","url":"http://192.168.137.148/wpblog1/wp-content/plugins/my-gallery/public/images/banner_header_small2.png"},
+                {"id":"539","url":"http://192.168.137.148/wpblog1/wp-content/plugins/my-gallery/public/images/banner_header_small2.png"},
+                {"id":"540","url":"http://192.168.137.148/wpblog1/wp-content/plugins/my-gallery/public/images/banner_header_small2.png"},
+                {"id":"541","url":"http://192.168.137.148/wpblog1/wp-content/plugins/my-gallery/public/images/banner_header_small2.png"},
+                {"id":"542","url":"http://192.168.137.148/wpblog1/wp-content/plugins/my-gallery/public/images/banner_header_small2.png"},
+                {"id":"543","url":"http://192.168.137.148/wpblog1/wp-content/plugins/my-gallery/public/images/banner_header_small2.png"},
+                {"id":"544","url":"http://192.168.137.148/wpblog1/wp-content/plugins/my-gallery/public/images/banner_header_small2.png"},
+                {"id":"545","url":"http://192.168.137.148/wpblog1/wp-content/plugins/my-gallery/public/images/banner_header_small2.png"}
+            ],
+            "settings":{
+                "misc":{
+                "title":"Audi wins the race",
+                "classes":"best-gallery, container-gallery"
+                },
+                "config":{
+                "galleryMode":false,
+                "loop":true,
+                "thumbsNumber":5,
+                "vertical":false,
+                "items":1
+                }
+            },
+            "_originalCode":"[my-gallery ids='531,532,533,534,535,536,537,538,539,540,541,542,543,544,545' ]"
+        }
+    ]
+}

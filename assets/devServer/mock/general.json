@@ -1,0 +1,58 @@
+{
+    "error":0,
+    "isFetching":false,
+    "message":{
+        "type":"success",
+        "text":"Ok!"
+    },
+    "posts":[
+        {
+            "title":"Test post title1",
+            "id":532
+        },
+        {
+            "title":"Test post title2",
+            "id":531
+        },
+        {
+            "title":"Test post title3",
+            "id":530
+        },
+        {
+            "title":"Test post title4",
+            "id":529
+        }
+    ],
+    "route":{
+        "name":"edit",
+        "postId":531
+    },
+    "postData":{
+        "id":531,
+        "selectedShortcode":false,
+        "shortcodes":[
+            {   
+                "hash":"lsfns242423",
+                "code":"[my-gallery ids='537,538' hash='lsfns242423']",
+                "images":[
+                    {"id":"537","url":"http://www.pic.com/picture.jpg"},
+                    {"id":"538","url":"http://www.pic.com/picture1.jpg"}
+                ],
+                "settings":{
+                    "misc":{
+                    "title":"My-gallery",
+                    "classes":""
+                    },
+                    "config":{
+                    "galleryMode":true,
+                    "loop":false,
+                    "thumbsNumber":6,
+                    "vertical":false,
+                    "items":1
+                    }
+                }
+            }
+        ]
+    }
+    
+}

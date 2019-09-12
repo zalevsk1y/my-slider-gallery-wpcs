@@ -1,0 +1,22 @@
+body {
+    background-color:#f1f1f1 !important;
+}
+.download-indicator{
+    top:0px !important;
+}
+.screen-reader-text{
+    display: none !important;
+}
+
+.tabs-big{
+    width:50%;
+}
+.tab-content{
+    background-color: #fff;
+    min-height: 10px;
+    border: 1px solid #e5e5e5;
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
+    background: #fff;
+    border-top:none;
+    padding:10px;
+}
