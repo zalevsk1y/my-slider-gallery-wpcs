@@ -1,10 +1,10 @@
 <?php
-use MyGallery\Rest\PostsListController;
+use My_Slider_Gallery\Posts_List_Controller;
 
-class PostsListControllerTest extends \WP_UnitTestCase
+class Posts_List_Controller_Test extends \WP_UnitTestCase
 {
 protected $server;
-protected $namespacedRoute = '/my-gallery/v1';
+protected $namespaced_route = '/my-gallery/v1';
 public function setUp() {
     parent::setUp();
  
@@ -17,13 +17,13 @@ public function setUp() {
     $this->factory()->post->create_many(10);
 
 }
-public function testRegisteredRouts(){
+public function test_registered_routs(){
     $routes=$this->server->get_routes();
     
-    $this->assertArrayHasKey($this->namespacedRoute,$routes);
+    $this->assertArrayHasKey($this->namespaced_route,$routes);
 }
-public function testEndpoints(){
-    $the_route = $this->namespacedRoute;
+public function test_end_points(){
+    $the_route = $this->namespaced_route;
 	$routes = $this->server->get_routes();
     foreach( $routes as $route => $route_config ) {
         if( 0 === strpos( $the_route, $route ) ) {
@@ -38,7 +38,7 @@ public function testEndpoints(){
             }
         }
     }
-    public function testPostsListRoute(){
+    public function test_posts_list_route(){
         $request  = new WP_REST_Request( 'GET', '/my-gallery/v1/posts-list/date/desc' );
         $response = $this->server->dispatch( $request );
         $this->assertEquals( 200, $response->get_status() );

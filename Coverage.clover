@@ -1,156 +1,240 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1567602820">
-  <project timestamp="1567602820">
-    <package name="MyGallery\Menu\Admin">
-      <file name="/var/www/html/wpblog1/wp-content/plugins/my-gallery/inc/Menu/Admin/MenuPage.php">
-        <class name="MyGallery\Menu\Admin\MenuPage" namespace="MyGallery\Menu\Admin">
-          <metrics complexity="6" methods="4" coveredmethods="4" conditionals="0" coveredconditionals="0" statements="16" coveredstatements="16" elements="20" coveredelements="20"/>
+<coverage generated="1568295988">
+  <project timestamp="1568295988">
+    <package name="My_Slider_Gallery">
+      <file name="/var/www/html/wpblog1/wp-content/plugins/my-gallery-wpcs/inc/classes/class-errors.php">
+        <class name="My_Slider_Gallery\Errors" namespace="My_Slider_Gallery" fullPackage="Message" package="Message">
+          <metrics complexity="3" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="6" coveredstatements="0" elements="7" coveredelements="0"/>
+        </class>
+        <line num="21" type="method" name="text" visibility="public" complexity="3" crap="12.00" count="0"/>
+        <line num="23" type="stmt" count="0"/>
+        <line num="24" type="stmt" count="0"/>
+        <line num="25" type="stmt" count="0"/>
+        <line num="26" type="stmt" count="0"/>
+        <line num="27" type="stmt" count="0"/>
+        <line num="29" type="stmt" count="0"/>
+        <metrics loc="30" ncloc="15" classes="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="6" coveredstatements="0" elements="7" coveredelements="0"/>
+      </file>
+      <file name="/var/www/html/wpblog1/wp-content/plugins/my-gallery-wpcs/inc/classes/class-main.php">
+        <class name="My_Slider_Gallery\Main" namespace="My_Slider_Gallery">
+          <metrics complexity="13" methods="7" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="45" coveredstatements="0" elements="52" coveredelements="0"/>
+        </class>
+        <line num="27" type="method" name="__construct" visibility="public" complexity="1" crap="2.00" count="0"/>
+        <line num="29" type="stmt" count="0"/>
+        <line num="30" type="stmt" count="0"/>
+        <line num="31" type="stmt" count="0"/>
+        <line num="40" type="method" name="enqueue_admin_scripts" visibility="public" complexity="5" crap="30.00" count="0"/>
+        <line num="42" type="stmt" count="0"/>
+        <line num="43" type="stmt" count="0"/>
+        <line num="44" type="stmt" count="0"/>
+        <line num="47" type="stmt" count="0"/>
+        <line num="48" type="stmt" count="0"/>
+        <line num="51" type="stmt" count="0"/>
+        <line num="52" type="stmt" count="0"/>
+        <line num="53" type="stmt" count="0"/>
+        <line num="54" type="stmt" count="0"/>
+        <line num="55" type="stmt" count="0"/>
+        <line num="56" type="stmt" count="0"/>
+        <line num="57" type="stmt" count="0"/>
+        <line num="59" type="stmt" count="0"/>
+        <line num="61" type="stmt" count="0"/>
+        <line num="62" type="stmt" count="0"/>
+        <line num="63" type="stmt" count="0"/>
+        <line num="65" type="stmt" count="0"/>
+        <line num="67" type="stmt" count="0"/>
+        <line num="74" type="method" name="enqueue_scripts" visibility="public" complexity="1" crap="2.00" count="0"/>
+        <line num="76" type="stmt" count="0"/>
+        <line num="77" type="stmt" count="0"/>
+        <line num="84" type="method" name="enqueue_styles" visibility="public" complexity="1" crap="2.00" count="0"/>
+        <line num="86" type="stmt" count="0"/>
+        <line num="87" type="stmt" count="0"/>
+        <line num="88" type="stmt" count="0"/>
+        <line num="89" type="stmt" count="0"/>
+        <line num="90" type="stmt" count="0"/>
+        <line num="97" type="method" name="register_scripts" visibility="public" complexity="1" crap="2.00" count="0"/>
+        <line num="99" type="stmt" count="0"/>
+        <line num="100" type="stmt" count="0"/>
+        <line num="101" type="stmt" count="0"/>
+        <line num="102" type="stmt" count="0"/>
+        <line num="103" type="stmt" count="0"/>
+        <line num="110" type="method" name="register_actions" visibility="private" complexity="1" crap="2.00" count="0"/>
+        <line num="112" type="stmt" count="0"/>
+        <line num="113" type="stmt" count="0"/>
+        <line num="114" type="stmt" count="0"/>
+        <line num="115" type="stmt" count="0"/>
+        <line num="116" type="stmt" count="0"/>
+        <line num="123" type="method" name="get_custom_query_var" visibility="public" complexity="3" crap="12.00" count="0"/>
+        <line num="126" type="stmt" count="0"/>
+        <line num="127" type="stmt" count="0"/>
+        <line num="128" type="stmt" count="0"/>
+        <line num="129" type="stmt" count="0"/>
+        <line num="130" type="stmt" count="0"/>
+        <line num="132" type="stmt" count="0"/>
+        <line num="134" type="stmt" count="0"/>
+        <metrics loc="135" ncloc="89" classes="1" methods="7" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="45" coveredstatements="0" elements="52" coveredelements="0"/>
+      </file>
+      <file name="/var/www/html/wpblog1/wp-content/plugins/my-gallery-wpcs/inc/classes/class-media-buttons.php">
+        <class name="My_Slider_Gallery\Media_Buttons" namespace="My_Slider_Gallery" fullPackage="Media">
+          <metrics complexity="3" methods="3" coveredmethods="3" conditionals="0" coveredconditionals="0" statements="7" coveredstatements="7" elements="10" coveredelements="10"/>
+        </class>
+        <line num="34" type="method" name="__construct" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="36" type="stmt" count="1"/>
+        <line num="37" type="stmt" count="1"/>
+        <line num="38" type="stmt" count="1"/>
+        <line num="44" type="method" name="register_filters" visibility="protected" complexity="1" crap="1" count="1"/>
+        <line num="46" type="stmt" count="1"/>
+        <line num="47" type="stmt" count="1"/>
+        <line num="54" type="method" name="render_media_button" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="56" type="stmt" count="1"/>
+        <line num="57" type="stmt" count="1"/>
+        <metrics loc="59" ncloc="26" classes="1" methods="3" coveredmethods="3" conditionals="0" coveredconditionals="0" statements="7" coveredstatements="7" elements="10" coveredelements="10"/>
+      </file>
+      <file name="/var/www/html/wpblog1/wp-content/plugins/my-gallery-wpcs/inc/classes/class-menu-config.php">
+        <class name="My_Slider_Gallery\Menu_Config" namespace="My_Slider_Gallery" fullPackage="Utils" package="Utils">
+          <metrics complexity="16" methods="4" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="36" coveredstatements="26" elements="40" coveredelements="27"/>
+        </class>
+        <line num="55" type="method" name="__construct" visibility="public" complexity="2" crap="2" count="3"/>
+        <line num="57" type="stmt" count="3"/>
+        <line num="58" type="stmt" count="1"/>
+        <line num="60" type="stmt" count="2"/>
+        <line num="61" type="stmt" count="2"/>
+        <line num="62" type="stmt" count="1"/>
+        <line num="63" type="stmt" count="1"/>
+        <line num="70" type="method" name="get" visibility="public" complexity="4" crap="6.74" count="1"/>
+        <line num="72" type="stmt" count="1"/>
+        <line num="73" type="stmt" count="1"/>
+        <line num="74" type="stmt" count="1"/>
+        <line num="75" type="stmt" count="1"/>
+        <line num="76" type="stmt" count="0"/>
+        <line num="77" type="stmt" count="0"/>
+        <line num="78" type="stmt" count="0"/>
+        <line num="79" type="stmt" count="0"/>
+        <line num="81" type="stmt" count="0"/>
+        <line num="88" type="method" name="verify_format" visibility="protected" complexity="6" crap="6.05" count="2"/>
+        <line num="90" type="stmt" count="2"/>
+        <line num="91" type="stmt" count="2"/>
+        <line num="92" type="stmt" count="1"/>
+        <line num="94" type="stmt" count="1"/>
+        <line num="95" type="stmt" count="1"/>
+        <line num="96" type="stmt" count="1"/>
+        <line num="97" type="stmt" count="1"/>
+        <line num="98" type="stmt" count="0"/>
+        <line num="102" type="stmt" count="1"/>
+        <line num="111" type="method" name="wrong_format" visibility="protected" complexity="4" crap="4.59" count="1"/>
+        <line num="113" type="stmt" count="1"/>
+        <line num="114" type="stmt" count="1"/>
+        <line num="115" type="stmt" count="1"/>
+        <line num="116" type="stmt" count="1"/>
+        <line num="117" type="stmt" count="0"/>
+        <line num="118" type="stmt" count="0"/>
+        <line num="119" type="stmt" count="0"/>
+        <line num="121" type="stmt" count="0"/>
+        <line num="123" type="stmt" count="1"/>
+        <line num="124" type="stmt" count="1"/>
+        <line num="125" type="stmt" count="1"/>
+        <line num="127" type="stmt" count="1"/>
+        <metrics loc="129" ncloc="79" classes="1" methods="4" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="36" coveredstatements="26" elements="40" coveredelements="27"/>
+      </file>
+      <file name="/var/www/html/wpblog1/wp-content/plugins/my-gallery-wpcs/inc/classes/class-menu-page.php">
+        <class name="My_Slider_Gallery\Menu_Page" namespace="My_Slider_Gallery" fullPackage="Menu">
+          <metrics complexity="6" methods="4" coveredmethods="3" conditionals="0" coveredconditionals="0" statements="17" coveredstatements="16" elements="21" coveredelements="19"/>
         </class>
         <line num="35" type="method" name="__construct" visibility="public" complexity="1" crap="1" count="1"/>
         <line num="37" type="stmt" count="1"/>
         <line num="38" type="stmt" count="1"/>
-        <line num="44" type="method" name="init" visibility="public" complexity="2" crap="2" count="1"/>
+        <line num="44" type="method" name="init" visibility="public" complexity="2" crap="2.02" count="1"/>
         <line num="46" type="stmt" count="1"/>
         <line num="47" type="stmt" count="1"/>
-        <line num="48" type="stmt" count="1"/>
-        <line num="49" type="stmt" count="1"/>
+        <line num="48" type="stmt" count="0"/>
         <line num="50" type="stmt" count="1"/>
-        <line num="56" type="method" name="addMainMenu" visibility="public" complexity="1" crap="1" count="1"/>
-        <line num="59" type="stmt" count="1"/>
-        <line num="60" type="stmt" count="1"/>
+        <line num="51" type="stmt" count="1"/>
+        <line num="52" type="stmt" count="1"/>
+        <line num="58" type="method" name="add_main_menu" visibility="public" complexity="1" crap="1" count="1"/>
         <line num="61" type="stmt" count="1"/>
         <line num="62" type="stmt" count="1"/>
-        <line num="69" type="method" name="addSubMenus" visibility="public" complexity="2" crap="2" count="1"/>
-        <line num="71" type="stmt" count="1"/>
-        <line num="72" type="stmt" count="1"/>
+        <line num="63" type="stmt" count="1"/>
+        <line num="64" type="stmt" count="1"/>
+        <line num="71" type="method" name="add_sub_menus" visibility="public" complexity="2" crap="2" count="1"/>
         <line num="73" type="stmt" count="1"/>
         <line num="74" type="stmt" count="1"/>
+        <line num="75" type="stmt" count="1"/>
         <line num="76" type="stmt" count="1"/>
-        <metrics loc="77" ncloc="40" classes="1" methods="4" coveredmethods="4" conditionals="0" coveredconditionals="0" statements="16" coveredstatements="16" elements="20" coveredelements="20"/>
+        <line num="78" type="stmt" count="1"/>
+        <metrics loc="79" ncloc="42" classes="1" methods="4" coveredmethods="3" conditionals="0" coveredconditionals="0" statements="17" coveredstatements="16" elements="21" coveredelements="19"/>
       </file>
-    </package>
-    <package name="MyGallery\Models">
-      <file name="/var/www/html/wpblog1/wp-content/plugins/my-gallery/inc/Models/PostModel.php">
-        <class name="MyGallery\Models\PostModel" namespace="MyGallery\Models">
-          <metrics complexity="19" methods="8" coveredmethods="5" conditionals="0" coveredconditionals="0" statements="45" coveredstatements="41" elements="53" coveredelements="46"/>
+      <file name="/var/www/html/wpblog1/wp-content/plugins/my-gallery-wpcs/inc/classes/class-post-factory.php">
+        <class name="My_Slider_Gallery\Post_Factory" namespace="My_Slider_Gallery" fullPackage="Post">
+          <metrics complexity="2" methods="2" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="1" elements="5" coveredelements="2"/>
         </class>
-        <line num="54" type="method" name="__construct" visibility="public" complexity="1" crap="1" count="6"/>
-        <line num="56" type="stmt" count="6"/>
-        <line num="57" type="stmt" count="6"/>
-        <line num="58" type="stmt" count="6"/>
-        <line num="64" type="method" name="init" visibility="protected" complexity="2" crap="2.02" count="6"/>
+        <line num="28" type="method" name="__construct" visibility="public" complexity="1" crap="2.00" count="0"/>
+        <line num="29" type="stmt" count="0"/>
+        <line num="30" type="stmt" count="0"/>
+        <line num="38" type="method" name="get" visibility="public" complexity="1" crap="1" count="2"/>
+        <line num="40" type="stmt" count="2"/>
+        <metrics loc="42" ncloc="19" classes="1" methods="2" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="1" elements="5" coveredelements="2"/>
+      </file>
+      <file name="/var/www/html/wpblog1/wp-content/plugins/my-gallery-wpcs/inc/classes/class-post-model.php">
+        <class name="My_Slider_Gallery\Post_Model" namespace="My_Slider_Gallery" fullPackage="Post">
+          <metrics complexity="19" methods="8" coveredmethods="5" conditionals="0" coveredconditionals="0" statements="46" coveredstatements="42" elements="54" coveredelements="47"/>
+        </class>
+        <line num="61" type="method" name="__construct" visibility="public" complexity="1" crap="1" count="6"/>
+        <line num="63" type="stmt" count="6"/>
+        <line num="64" type="stmt" count="6"/>
+        <line num="65" type="stmt" count="6"/>
         <line num="66" type="stmt" count="6"/>
-        <line num="67" type="stmt" count="6"/>
-        <line num="68" type="stmt" count="0"/>
-        <line num="71" type="stmt" count="6"/>
-        <line num="72" type="stmt" count="6"/>
-        <line num="73" type="stmt" count="6"/>
-        <line num="79" type="method" name="postId" visibility="public" complexity="1" crap="1" count="3"/>
-        <line num="81" type="stmt" count="3"/>
-        <line num="90" type="method" name="getShortcode" visibility="public" complexity="4" crap="5.02" count="2"/>
-        <line num="92" type="stmt" count="2"/>
-        <line num="93" type="stmt" count="0"/>
-        <line num="96" type="stmt" count="2"/>
-        <line num="97" type="stmt" count="2"/>
-        <line num="100" type="stmt" count="0"/>
-        <line num="109" type="method" name="parseShortcodes" visibility="protected" complexity="4" crap="4.01" count="6"/>
-        <line num="111" type="stmt" count="6"/>
-        <line num="112" type="stmt" count="0"/>
-        <line num="115" type="stmt" count="6"/>
-        <line num="116" type="stmt" count="6"/>
-        <line num="117" type="stmt" count="1"/>
-        <line num="119" type="stmt" count="5"/>
-        <line num="120" type="stmt" count="5"/>
-        <line num="121" type="stmt" count="5"/>
-        <line num="122" type="stmt" count="5"/>
-        <line num="123" type="stmt" count="5"/>
-        <line num="124" type="stmt" count="5"/>
-        <line num="126" type="stmt" count="5"/>
-        <line num="134" type="method" name="updatePostShortcodes" visibility="public" complexity="5" crap="5" count="4"/>
-        <line num="136" type="stmt" count="4"/>
-        <line num="137" type="stmt" count="4"/>
-        <line num="138" type="stmt" count="4"/>
-        <line num="139" type="stmt" count="4"/>
-        <line num="140" type="stmt" count="2"/>
-        <line num="141" type="stmt" count="2"/>
-        <line num="142" type="stmt" count="2"/>
-        <line num="143" type="stmt" count="1"/>
-        <line num="144" type="stmt" count="1"/>
-        <line num="145" type="stmt" count="1"/>
-        <line num="146" type="stmt" count="1"/>
-        <line num="147" type="stmt" count="1"/>
-        <line num="148" type="stmt" count="1"/>
-        <line num="151" type="stmt" count="4"/>
-        <line num="158" type="method" name="updatePost" visibility="protected" complexity="1" crap="1" count="4"/>
-        <line num="161" type="stmt" count="4"/>
-        <line num="162" type="stmt" count="4"/>
-        <line num="164" type="stmt" count="4"/>
-        <line num="172" type="method" name="getShotcodeModel" visibility="protected" complexity="1" crap="1" count="5"/>
-        <line num="175" type="stmt" count="5"/>
-        <metrics loc="177" ncloc="98" classes="1" methods="8" coveredmethods="5" conditionals="0" coveredconditionals="0" statements="45" coveredstatements="41" elements="53" coveredelements="46"/>
+        <line num="72" type="method" name="init" visibility="protected" complexity="2" crap="2.02" count="6"/>
+        <line num="74" type="stmt" count="6"/>
+        <line num="75" type="stmt" count="6"/>
+        <line num="76" type="stmt" count="0"/>
+        <line num="79" type="stmt" count="6"/>
+        <line num="80" type="stmt" count="6"/>
+        <line num="81" type="stmt" count="6"/>
+        <line num="87" type="method" name="post_id" visibility="public" complexity="1" crap="1" count="3"/>
+        <line num="89" type="stmt" count="3"/>
+        <line num="98" type="method" name="get_shortcode" visibility="public" complexity="4" crap="5.02" count="2"/>
+        <line num="100" type="stmt" count="2"/>
+        <line num="101" type="stmt" count="0"/>
+        <line num="104" type="stmt" count="2"/>
+        <line num="105" type="stmt" count="2"/>
+        <line num="108" type="stmt" count="0"/>
+        <line num="117" type="method" name="parse_shortcodes" visibility="protected" complexity="4" crap="4.01" count="6"/>
+        <line num="119" type="stmt" count="6"/>
+        <line num="120" type="stmt" count="0"/>
+        <line num="123" type="stmt" count="6"/>
+        <line num="124" type="stmt" count="6"/>
+        <line num="125" type="stmt" count="1"/>
+        <line num="127" type="stmt" count="5"/>
+        <line num="128" type="stmt" count="5"/>
+        <line num="129" type="stmt" count="5"/>
+        <line num="130" type="stmt" count="5"/>
+        <line num="131" type="stmt" count="5"/>
+        <line num="132" type="stmt" count="5"/>
+        <line num="134" type="stmt" count="5"/>
+        <line num="142" type="method" name="update_post_shortcodes" visibility="public" complexity="5" crap="5" count="4"/>
+        <line num="144" type="stmt" count="4"/>
+        <line num="145" type="stmt" count="4"/>
+        <line num="146" type="stmt" count="4"/>
+        <line num="147" type="stmt" count="4"/>
+        <line num="148" type="stmt" count="2"/>
+        <line num="149" type="stmt" count="2"/>
+        <line num="150" type="stmt" count="2"/>
+        <line num="151" type="stmt" count="1"/>
+        <line num="152" type="stmt" count="1"/>
+        <line num="153" type="stmt" count="1"/>
+        <line num="154" type="stmt" count="1"/>
+        <line num="155" type="stmt" count="1"/>
+        <line num="156" type="stmt" count="1"/>
+        <line num="159" type="stmt" count="4"/>
+        <line num="166" type="method" name="update_post" visibility="protected" complexity="1" crap="1" count="4"/>
+        <line num="169" type="stmt" count="4"/>
+        <line num="170" type="stmt" count="4"/>
+        <line num="172" type="stmt" count="4"/>
+        <line num="180" type="method" name="get_shotcode_model" visibility="protected" complexity="1" crap="1" count="5"/>
+        <line num="183" type="stmt" count="5"/>
+        <metrics loc="185" ncloc="101" classes="1" methods="8" coveredmethods="5" conditionals="0" coveredconditionals="0" statements="46" coveredstatements="42" elements="54" coveredelements="47"/>
       </file>
-      <file name="/var/www/html/wpblog1/wp-content/plugins/my-gallery/inc/Models/ShortcodeModel.php">
-        <class name="MyGallery\Models\ShortcodeModel" namespace="MyGallery\Models">
-          <metrics complexity="13" methods="10" coveredmethods="8" conditionals="0" coveredconditionals="0" statements="42" coveredstatements="36" elements="52" coveredelements="44"/>
-        </class>
-        <line num="78" type="method" name="__construct" visibility="public" complexity="1" crap="1" count="11"/>
-        <line num="80" type="stmt" count="11"/>
-        <line num="81" type="stmt" count="11"/>
-        <line num="82" type="stmt" count="11"/>
-        <line num="83" type="stmt" count="11"/>
-        <line num="84" type="stmt" count="11"/>
-        <line num="88" type="stmt" count="11"/>
-        <line num="89" type="stmt" count="11"/>
-        <line num="95" type="method" name="init" visibility="protected" complexity="1" crap="1" count="11"/>
-        <line num="98" type="stmt" count="11"/>
-        <line num="99" type="stmt" count="11"/>
-        <line num="105" type="method" name="toObject" visibility="public" complexity="1" crap="1" count="11"/>
-        <line num="108" type="stmt" count="11"/>
-        <line num="109" type="stmt" count="11"/>
-        <line num="110" type="stmt" count="11"/>
-        <line num="111" type="stmt" count="11"/>
-        <line num="119" type="method" name="parseCode" visibility="protected" complexity="1" crap="1" count="11"/>
-        <line num="122" type="stmt" count="11"/>
-        <line num="124" type="stmt" count="11"/>
-        <line num="126" type="stmt" count="11"/>
-        <line num="128" type="stmt" count="11"/>
-        <line num="130" type="stmt" count="11"/>
-        <line num="137" type="method" name="parseImageIds" visibility="protected" complexity="2" crap="2" count="11"/>
-        <line num="139" type="stmt" count="11"/>
-        <line num="140" type="stmt" count="11"/>
-        <line num="141" type="stmt" count="11"/>
-        <line num="142" type="stmt" count="11"/>
-        <line num="145" type="stmt" count="11"/>
-        <line num="153" type="method" name="parseTitle" visibility="protected" complexity="2" crap="2" count="11"/>
-        <line num="154" type="stmt" count="11"/>
-        <line num="155" type="stmt" count="9"/>
-        <line num="156" type="stmt" count="9"/>
-        <line num="157" type="stmt" count="9"/>
-        <line num="158" type="stmt" count="9"/>
-        <line num="160" type="stmt" count="11"/>
-        <line num="168" type="method" name="parseConfig" visibility="protected" complexity="2" crap="2" count="11"/>
-        <line num="169" type="stmt" count="11"/>
-        <line num="170" type="stmt" count="11"/>
-        <line num="171" type="stmt" count="7"/>
-        <line num="172" type="stmt" count="7"/>
-        <line num="173" type="stmt" count="7"/>
-        <line num="175" type="stmt" count="11"/>
-        <line num="183" type="method" name="setImage" visibility="protected" complexity="1" crap="1" count="11"/>
-        <line num="186" type="stmt" count="11"/>
-        <line num="194" type="method" name="setEmptyShortcode" visibility="protected" complexity="1" crap="2.00" count="0"/>
-        <line num="196" type="stmt" count="0"/>
-        <line num="197" type="stmt" count="0"/>
-        <line num="198" type="stmt" count="0"/>
-        <line num="202" type="stmt" count="0"/>
-        <line num="208" type="method" name="checkShortcodeName" visibility="protected" complexity="1" crap="2.00" count="0"/>
-        <line num="210" type="stmt" count="0"/>
-        <line num="212" type="stmt" count="0"/>
-        <metrics loc="214" ncloc="103" classes="1" methods="10" coveredmethods="8" conditionals="0" coveredconditionals="0" statements="42" coveredstatements="36" elements="52" coveredelements="44"/>
-      </file>
-    </package>
-    <package name="MyGallery\Rest">
-      <file name="/var/www/html/wpblog1/wp-content/plugins/my-gallery/inc/Rest/PostsListController.php">
-        <class name="MyGallery\Rest\PostsListController" namespace="MyGallery\Rest" fullPackage="Models" package="Models">
+      <file name="/var/www/html/wpblog1/wp-content/plugins/my-gallery-wpcs/inc/classes/class-posts-list-controller.php">
+        <class name="My_Slider_Gallery\Posts_List_Controller" namespace="My_Slider_Gallery" fullPackage="Rest" package="Rest">
           <metrics complexity="9" methods="7" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="35" coveredstatements="27" elements="42" coveredelements="29"/>
         </class>
         <line num="33" type="method" name="__construct" visibility="public" complexity="1" crap="2.00" count="0"/>
@@ -159,7 +243,7 @@
         <line num="42" type="method" name="init" visibility="protected" complexity="1" crap="2.00" count="0"/>
         <line num="44" type="stmt" count="0"/>
         <line num="45" type="stmt" count="0"/>
-        <line num="51" type="method" name="registerRouts" visibility="public" complexity="1" crap="1.00" count="6"/>
+        <line num="51" type="method" name="register_Routs" visibility="public" complexity="1" crap="1.00" count="6"/>
         <line num="53" type="stmt" count="6"/>
         <line num="54" type="stmt" count="6"/>
         <line num="55" type="stmt" count="6"/>
@@ -172,14 +256,14 @@
         <line num="66" type="stmt" count="0"/>
         <line num="67" type="stmt" count="6"/>
         <line num="76" type="stmt" count="6"/>
-        <line num="83" type="method" name="checkPermission" visibility="public" complexity="2" crap="2.15" count="1"/>
+        <line num="83" type="method" name="check_permission" visibility="public" complexity="2" crap="2.15" count="1"/>
         <line num="86" type="stmt" count="1"/>
         <line num="87" type="stmt" count="0"/>
         <line num="90" type="stmt" count="1"/>
-        <line num="98" type="method" name="getSchema" visibility="public" complexity="1" crap="2.00" count="0"/>
+        <line num="98" type="method" name="get_schema" visibility="public" complexity="1" crap="2.00" count="0"/>
         <line num="101" type="stmt" count="0"/>
         <line num="119" type="stmt" count="0"/>
-        <line num="127" type="method" name="getPostsList" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="127" type="method" name="get_posts_list" visibility="public" complexity="1" crap="1" count="1"/>
         <line num="129" type="stmt" count="1"/>
         <line num="130" type="stmt" count="1"/>
         <line num="133" type="stmt" count="1"/>
@@ -188,7 +272,7 @@
         <line num="140" type="stmt" count="1"/>
         <line num="141" type="stmt" count="1"/>
         <line num="142" type="stmt" count="1"/>
-        <line num="150" type="method" name="prepareResponse" visibility="protected" complexity="2" crap="2" count="1"/>
+        <line num="150" type="method" name="prepare_response" visibility="protected" complexity="2" crap="2" count="1"/>
         <line num="152" type="stmt" count="1"/>
         <line num="153" type="stmt" count="1"/>
         <line num="154" type="stmt" count="1"/>
@@ -197,120 +281,300 @@
         <line num="159" type="stmt" count="1"/>
         <metrics loc="161" ncloc="104" classes="1" methods="7" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="35" coveredstatements="27" elements="42" coveredelements="29"/>
       </file>
-      <file name="/var/www/html/wpblog1/wp-content/plugins/my-gallery/inc/Rest/ShortcodeController.php">
-        <class name="MyGallery\Rest\ShortcodeController" namespace="MyGallery\Rest" fullPackage="Models" package="Models">
-          <metrics complexity="15" methods="12" coveredmethods="7" conditionals="0" coveredconditionals="0" statements="61" coveredstatements="43" elements="73" coveredelements="50"/>
+      <file name="/var/www/html/wpblog1/wp-content/plugins/my-gallery-wpcs/inc/classes/class-shortcode-controller.php">
+        <class name="My_Slider_Gallery\Shortcode_Controller" namespace="My_Slider_Gallery" fullPackage="Rest" package="Rest">
+          <metrics complexity="15" methods="12" coveredmethods="7" conditionals="0" coveredconditionals="0" statements="62" coveredstatements="43" elements="74" coveredelements="50"/>
         </class>
-        <line num="35" type="method" name="__construct" visibility="public" complexity="1" crap="2.00" count="0"/>
-        <line num="37" type="stmt" count="0"/>
-        <line num="38" type="stmt" count="0"/>
-        <line num="44" type="method" name="init" visibility="protected" complexity="1" crap="2.00" count="0"/>
-        <line num="46" type="stmt" count="0"/>
-        <line num="47" type="stmt" count="0"/>
-        <line num="53" type="method" name="registerRouts" visibility="public" complexity="1" crap="1" count="6"/>
-        <line num="56" type="stmt" count="6"/>
-        <line num="57" type="stmt" count="6"/>
-        <line num="58" type="stmt" count="6"/>
-        <line num="60" type="stmt" count="6"/>
-        <line num="61" type="stmt" count="6"/>
-        <line num="62" type="stmt" count="6"/>
+        <line num="41" type="method" name="__construct" visibility="public" complexity="1" crap="2.00" count="0"/>
+        <line num="43" type="stmt" count="0"/>
+        <line num="44" type="stmt" count="0"/>
+        <line num="45" type="stmt" count="0"/>
+        <line num="51" type="method" name="init" visibility="protected" complexity="1" crap="2.00" count="0"/>
+        <line num="53" type="stmt" count="0"/>
+        <line num="54" type="stmt" count="0"/>
+        <line num="60" type="method" name="register_routs" visibility="public" complexity="1" crap="1" count="6"/>
         <line num="63" type="stmt" count="6"/>
-        <line num="66" type="stmt" count="6"/>
+        <line num="64" type="stmt" count="6"/>
+        <line num="65" type="stmt" count="6"/>
         <line num="67" type="stmt" count="6"/>
         <line num="68" type="stmt" count="6"/>
+        <line num="69" type="stmt" count="6"/>
         <line num="70" type="stmt" count="6"/>
-        <line num="71" type="stmt" count="6"/>
-        <line num="72" type="stmt" count="6"/>
         <line num="73" type="stmt" count="6"/>
-        <line num="77" type="stmt" count="1"/>
+        <line num="74" type="stmt" count="6"/>
+        <line num="75" type="stmt" count="6"/>
+        <line num="77" type="stmt" count="6"/>
         <line num="78" type="stmt" count="6"/>
-        <line num="83" type="stmt" count="6"/>
-        <line num="90" type="method" name="checkPermission" visibility="public" complexity="2" crap="2.15" count="1"/>
-        <line num="92" type="stmt" count="1"/>
-        <line num="93" type="stmt" count="0"/>
-        <line num="96" type="stmt" count="1"/>
-        <line num="104" type="method" name="checkPermissionPostUpdate" visibility="public" complexity="2" crap="2.06" count="1"/>
-        <line num="106" type="stmt" count="1"/>
-        <line num="108" type="stmt" count="1"/>
-        <line num="109" type="stmt" count="0"/>
-        <line num="112" type="stmt" count="1"/>
-        <line num="120" type="method" name="getSchema" visibility="public" complexity="1" crap="2.00" count="0"/>
-        <line num="123" type="stmt" count="0"/>
-        <line num="124" type="stmt" count="0"/>
-        <line num="125" type="stmt" count="0"/>
-        <line num="126" type="stmt" count="0"/>
-        <line num="128" type="stmt" count="0"/>
+        <line num="79" type="stmt" count="6"/>
+        <line num="80" type="stmt" count="6"/>
+        <line num="84" type="stmt" count="1"/>
+        <line num="85" type="stmt" count="6"/>
+        <line num="90" type="stmt" count="6"/>
+        <line num="97" type="method" name="check_permission" visibility="public" complexity="2" crap="2.15" count="1"/>
+        <line num="99" type="stmt" count="1"/>
+        <line num="100" type="stmt" count="0"/>
+        <line num="103" type="stmt" count="1"/>
+        <line num="111" type="method" name="check_permission_post_update" visibility="public" complexity="2" crap="2.06" count="1"/>
+        <line num="113" type="stmt" count="1"/>
+        <line num="115" type="stmt" count="1"/>
+        <line num="116" type="stmt" count="0"/>
+        <line num="119" type="stmt" count="1"/>
+        <line num="127" type="method" name="get_schema" visibility="public" complexity="1" crap="2.00" count="0"/>
+        <line num="130" type="stmt" count="0"/>
         <line num="131" type="stmt" count="0"/>
         <line num="132" type="stmt" count="0"/>
+        <line num="133" type="stmt" count="0"/>
         <line num="135" type="stmt" count="0"/>
-        <line num="136" type="stmt" count="0"/>
+        <line num="138" type="stmt" count="0"/>
         <line num="139" type="stmt" count="0"/>
-        <line num="140" type="stmt" count="0"/>
-        <line num="159" type="stmt" count="0"/>
-        <line num="167" type="method" name="getShortcodes" visibility="public" complexity="1" crap="1" count="1"/>
-        <line num="169" type="stmt" count="1"/>
-        <line num="170" type="stmt" count="1"/>
-        <line num="172" type="stmt" count="1"/>
-        <line num="173" type="stmt" count="1"/>
-        <line num="181" type="method" name="saveShortcodes" visibility="public" complexity="1" crap="1" count="1"/>
-        <line num="183" type="stmt" count="1"/>
-        <line num="185" type="stmt" count="1"/>
-        <line num="186" type="stmt" count="1"/>
-        <line num="187" type="stmt" count="1"/>
-        <line num="188" type="stmt" count="1"/>
-        <line num="189" type="stmt" count="1"/>
-        <line num="197" type="method" name="escapeShortcodesArray" visibility="protected" complexity="2" crap="2" count="1"/>
-        <line num="199" type="stmt" count="1"/>
-        <line num="200" type="stmt" count="1"/>
-        <line num="201" type="stmt" count="1"/>
-        <line num="202" type="stmt" count="1"/>
-        <line num="203" type="stmt" count="1"/>
+        <line num="142" type="stmt" count="0"/>
+        <line num="143" type="stmt" count="0"/>
+        <line num="146" type="stmt" count="0"/>
+        <line num="147" type="stmt" count="0"/>
+        <line num="166" type="stmt" count="0"/>
+        <line num="174" type="method" name="get_shortcodes" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="176" type="stmt" count="1"/>
+        <line num="177" type="stmt" count="1"/>
+        <line num="179" type="stmt" count="1"/>
+        <line num="180" type="stmt" count="1"/>
+        <line num="188" type="method" name="save_shortcodes" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="190" type="stmt" count="1"/>
+        <line num="192" type="stmt" count="1"/>
+        <line num="193" type="stmt" count="1"/>
+        <line num="194" type="stmt" count="1"/>
+        <line num="195" type="stmt" count="1"/>
+        <line num="196" type="stmt" count="1"/>
+        <line num="204" type="method" name="escape_shortcodes_array" visibility="protected" complexity="2" crap="2" count="1"/>
         <line num="206" type="stmt" count="1"/>
-        <line num="214" type="method" name="extractShortcodeData" visibility="protected" complexity="1" crap="1" count="1"/>
-        <line num="216" type="stmt" count="1"/>
-        <line num="217" type="stmt" count="1"/>
-        <line num="218" type="stmt" count="1"/>
-        <line num="226" type="method" name="getPost" visibility="protected" complexity="1" crap="1" count="2"/>
-        <line num="228" type="stmt" count="2"/>
-        <line num="236" type="method" name="prepareResponse" visibility="protected" complexity="1" crap="1" count="1"/>
-        <line num="239" type="stmt" count="1"/>
-        <metrics loc="241" ncloc="153" classes="1" methods="12" coveredmethods="7" conditionals="0" coveredconditionals="0" statements="61" coveredstatements="43" elements="73" coveredelements="50"/>
+        <line num="207" type="stmt" count="1"/>
+        <line num="208" type="stmt" count="1"/>
+        <line num="209" type="stmt" count="1"/>
+        <line num="210" type="stmt" count="1"/>
+        <line num="213" type="stmt" count="1"/>
+        <line num="221" type="method" name="extract_shortcode_data" visibility="protected" complexity="1" crap="1" count="1"/>
+        <line num="223" type="stmt" count="1"/>
+        <line num="224" type="stmt" count="1"/>
+        <line num="225" type="stmt" count="1"/>
+        <line num="233" type="method" name="get_post" visibility="protected" complexity="1" crap="1" count="2"/>
+        <line num="235" type="stmt" count="2"/>
+        <line num="243" type="method" name="prepare_response" visibility="protected" complexity="1" crap="1" count="1"/>
+        <line num="246" type="stmt" count="1"/>
+        <metrics loc="248" ncloc="155" classes="1" methods="12" coveredmethods="7" conditionals="0" coveredconditionals="0" statements="62" coveredstatements="43" elements="74" coveredelements="50"/>
       </file>
-    </package>
-    <package name="MyGallery\Traits">
-      <file name="/var/www/html/wpblog1/wp-content/plugins/my-gallery/inc/Traits/ConfigParse.php">
-        <class name="ConfigParse" namespace="MyGallery\Traits" fullPackage="Models" package="Models">
+      <file name="/var/www/html/wpblog1/wp-content/plugins/my-gallery-wpcs/inc/classes/class-shortcode-factory.php">
+        <class name="My_Slider_Gallery\Shortcode_Factory" namespace="My_Slider_Gallery" fullPackage="Factories" package="Factories">
+          <metrics complexity="3" methods="2" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="5" coveredstatements="4" elements="7" coveredelements="5"/>
+        </class>
+        <line num="24" type="method" name="__construct" visibility="public" complexity="1" crap="1" count="4"/>
+        <line num="26" type="stmt" count="4"/>
+        <line num="27" type="stmt" count="4"/>
+        <line num="34" type="method" name="get" visibility="public" complexity="2" crap="2.15" count="5"/>
+        <line num="36" type="stmt" count="5"/>
+        <line num="37" type="stmt" count="5"/>
+        <line num="39" type="stmt" count="0"/>
+        <metrics loc="40" ncloc="19" classes="1" methods="2" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="5" coveredstatements="4" elements="7" coveredelements="5"/>
+      </file>
+      <file name="/var/www/html/wpblog1/wp-content/plugins/my-gallery-wpcs/inc/classes/class-shortcode-model.php">
+        <class name="My_Slider_Gallery\Shortcode_Model" namespace="My_Slider_Gallery" fullPackage="Shortcode">
+          <metrics complexity="13" methods="10" coveredmethods="8" conditionals="0" coveredconditionals="0" statements="43" coveredstatements="37" elements="53" coveredelements="45"/>
+        </class>
+        <line num="83" type="method" name="__construct" visibility="public" complexity="1" crap="1" count="11"/>
+        <line num="85" type="stmt" count="11"/>
+        <line num="86" type="stmt" count="11"/>
+        <line num="87" type="stmt" count="11"/>
+        <line num="88" type="stmt" count="11"/>
+        <line num="89" type="stmt" count="11"/>
+        <line num="93" type="stmt" count="11"/>
+        <line num="94" type="stmt" count="11"/>
+        <line num="100" type="method" name="init" visibility="protected" complexity="1" crap="1" count="11"/>
+        <line num="103" type="stmt" count="11"/>
+        <line num="104" type="stmt" count="11"/>
+        <line num="110" type="method" name="to_object" visibility="public" complexity="1" crap="1" count="11"/>
+        <line num="113" type="stmt" count="11"/>
+        <line num="114" type="stmt" count="11"/>
+        <line num="115" type="stmt" count="11"/>
+        <line num="116" type="stmt" count="11"/>
+        <line num="124" type="method" name="parse_code" visibility="protected" complexity="1" crap="1" count="11"/>
+        <line num="127" type="stmt" count="11"/>
+        <line num="129" type="stmt" count="11"/>
+        <line num="131" type="stmt" count="11"/>
+        <line num="133" type="stmt" count="11"/>
+        <line num="134" type="stmt" count="11"/>
+        <line num="141" type="method" name="parse_image_ids" visibility="protected" complexity="2" crap="2" count="11"/>
+        <line num="143" type="stmt" count="11"/>
+        <line num="144" type="stmt" count="11"/>
+        <line num="145" type="stmt" count="11"/>
+        <line num="146" type="stmt" count="11"/>
+        <line num="147" type="stmt" count="11"/>
+        <line num="150" type="stmt" count="11"/>
+        <line num="158" type="method" name="parse_title" visibility="protected" complexity="2" crap="2" count="11"/>
+        <line num="160" type="stmt" count="11"/>
+        <line num="161" type="stmt" count="9"/>
+        <line num="162" type="stmt" count="9"/>
+        <line num="163" type="stmt" count="9"/>
+        <line num="164" type="stmt" count="9"/>
+        <line num="166" type="stmt" count="11"/>
+        <line num="174" type="method" name="parse_config" visibility="protected" complexity="2" crap="2" count="11"/>
+        <line num="176" type="stmt" count="11"/>
+        <line num="177" type="stmt" count="11"/>
+        <line num="178" type="stmt" count="7"/>
+        <line num="179" type="stmt" count="7"/>
+        <line num="180" type="stmt" count="7"/>
+        <line num="182" type="stmt" count="11"/>
+        <line num="190" type="method" name="set_image" visibility="protected" complexity="1" crap="1" count="11"/>
+        <line num="193" type="stmt" count="11"/>
+        <line num="201" type="method" name="set_empty_shortcode" visibility="protected" complexity="1" crap="2.00" count="0"/>
+        <line num="203" type="stmt" count="0"/>
+        <line num="204" type="stmt" count="0"/>
+        <line num="205" type="stmt" count="0"/>
+        <line num="209" type="stmt" count="0"/>
+        <line num="215" type="method" name="check_shortcode_name" visibility="protected" complexity="1" crap="2.00" count="0"/>
+        <line num="217" type="stmt" count="0"/>
+        <line num="219" type="stmt" count="0"/>
+        <metrics loc="221" ncloc="104" classes="1" methods="10" coveredmethods="8" conditionals="0" coveredconditionals="0" statements="43" coveredstatements="37" elements="53" coveredelements="45"/>
+      </file>
+      <file name="/var/www/html/wpblog1/wp-content/plugins/my-gallery-wpcs/inc/classes/class-slider.php">
+        <class name="My_Slider_Gallery\Slider" namespace="My_Slider_Gallery">
+          <metrics complexity="17" methods="6" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="41" coveredstatements="0" elements="47" coveredelements="0"/>
+        </class>
+        <line num="50" type="method" name="__construct" visibility="public" complexity="1" crap="2.00" count="0"/>
+        <line num="52" type="stmt" count="0"/>
+        <line num="53" type="stmt" count="0"/>
+        <line num="54" type="stmt" count="0"/>
+        <line num="60" type="method" name="register_shortcode" visibility="protected" complexity="1" crap="2.00" count="0"/>
+        <line num="62" type="stmt" count="0"/>
+        <line num="63" type="stmt" count="0"/>
+        <line num="72" type="method" name="render" visibility="public" complexity="5" crap="30.00" count="0"/>
+        <line num="74" type="stmt" count="0"/>
+        <line num="75" type="stmt" count="0"/>
+        <line num="81" type="stmt" count="0"/>
+        <line num="82" type="stmt" count="0"/>
+        <line num="83" type="stmt" count="0"/>
+        <line num="86" type="stmt" count="0"/>
+        <line num="89" type="stmt" count="0"/>
+        <line num="90" type="stmt" count="0"/>
+        <line num="91" type="stmt" count="0"/>
+        <line num="92" type="stmt" count="0"/>
+        <line num="95" type="stmt" count="0"/>
+        <line num="96" type="stmt" count="0"/>
+        <line num="104" type="method" name="get_title" visibility="protected" complexity="2" crap="6.00" count="0"/>
+        <line num="106" type="stmt" count="0"/>
+        <line num="107" type="stmt" count="0"/>
+        <line num="109" type="stmt" count="0"/>
+        <line num="118" type="method" name="get_config" visibility="protected" complexity="2" crap="6.00" count="0"/>
+        <line num="120" type="stmt" count="0"/>
+        <line num="121" type="stmt" count="0"/>
+        <line num="123" type="stmt" count="0"/>
+        <line num="139" type="method" name="fix_parsing_problems" visibility="protected" complexity="6" crap="42.00" count="0"/>
+        <line num="141" type="stmt" count="0"/>
+        <line num="142" type="stmt" count="0"/>
+        <line num="143" type="stmt" count="0"/>
+        <line num="144" type="stmt" count="0"/>
+        <line num="145" type="stmt" count="0"/>
+        <line num="146" type="stmt" count="0"/>
+        <line num="147" type="stmt" count="0"/>
+        <line num="148" type="stmt" count="0"/>
+        <line num="151" type="stmt" count="0"/>
+        <line num="152" type="stmt" count="0"/>
+        <line num="153" type="stmt" count="0"/>
+        <line num="155" type="stmt" count="0"/>
+        <line num="156" type="stmt" count="0"/>
+        <line num="159" type="stmt" count="0"/>
+        <line num="160" type="stmt" count="0"/>
+        <line num="162" type="stmt" count="0"/>
+        <line num="164" type="stmt" count="0"/>
+        <line num="165" type="stmt" count="0"/>
+        <metrics loc="167" ncloc="94" classes="1" methods="6" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="41" coveredstatements="0" elements="47" coveredelements="0"/>
+      </file>
+      <file name="/var/www/html/wpblog1/wp-content/plugins/my-gallery-wpcs/inc/classes/class-success.php">
+        <class name="My_Slider_Gallery\Success" namespace="My_Slider_Gallery" fullPackage="Message" package="Message">
+          <metrics complexity="2" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="0" elements="4" coveredelements="0"/>
+        </class>
+        <line num="21" type="method" name="text" visibility="public" complexity="2" crap="6.00" count="0"/>
+        <line num="24" type="stmt" count="0"/>
+        <line num="25" type="stmt" count="0"/>
+        <line num="27" type="stmt" count="0"/>
+        <metrics loc="28" ncloc="13" classes="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="0" elements="4" coveredelements="0"/>
+      </file>
+      <file name="/var/www/html/wpblog1/wp-content/plugins/my-gallery-wpcs/inc/classes/class-template-factory.php">
+        <class name="My_Slider_Gallery\Template_Factory" namespace="My_Slider_Gallery" fullPackage="Template">
+          <metrics complexity="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="1" elements="2" coveredelements="2"/>
+        </class>
+        <line num="26" type="method" name="get" visibility="public" complexity="1" crap="1" count="2"/>
+        <line num="28" type="stmt" count="2"/>
+        <metrics loc="30" ncloc="15" classes="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="1" elements="2" coveredelements="2"/>
+      </file>
+      <file name="/var/www/html/wpblog1/wp-content/plugins/my-gallery-wpcs/inc/classes/class-template-render.php">
+        <class name="My_Slider_Gallery\Template_Render" namespace="My_Slider_Gallery" fullPackage="Template">
+          <metrics complexity="12" methods="6" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="26" coveredstatements="14" elements="32" coveredelements="15"/>
+        </class>
+        <line num="35" type="method" name="__construct" visibility="public" complexity="2" crap="2" count="2"/>
+        <line num="37" type="stmt" count="2"/>
+        <line num="38" type="stmt" count="2"/>
+        <line num="39" type="stmt" count="2"/>
+        <line num="40" type="stmt" count="2"/>
+        <line num="42" type="stmt" count="2"/>
+        <line num="49" type="method" name="is_template_exists" visibility="protected" complexity="3" crap="3.33" count="2"/>
+        <line num="51" type="stmt" count="2"/>
+        <line num="52" type="stmt" count="0"/>
+        <line num="54" type="stmt" count="2"/>
+        <line num="62" type="method" name="add_new_template" visibility="public" complexity="1" crap="2.00" count="0"/>
+        <line num="64" type="stmt" count="0"/>
+        <line num="65" type="stmt" count="0"/>
+        <line num="66" type="stmt" count="0"/>
+        <line num="67" type="stmt" count="0"/>
+        <line num="74" type="method" name="add_arguments" visibility="public" complexity="1" crap="2.00" count="0"/>
+        <line num="76" type="stmt" count="0"/>
+        <line num="77" type="stmt" count="0"/>
+        <line num="84" type="method" name="render_with_echo" visibility="public" complexity="1" crap="2.00" count="0"/>
+        <line num="86" type="stmt" count="0"/>
+        <line num="87" type="stmt" count="0"/>
+        <line num="94" type="method" name="render" visibility="public" complexity="4" crap="4.43" count="1"/>
+        <line num="96" type="stmt" count="1"/>
+        <line num="97" type="stmt" count="0"/>
+        <line num="100" type="stmt" count="1"/>
+        <line num="101" type="stmt" count="0"/>
+        <line num="102" type="stmt" count="0"/>
+        <line num="106" type="stmt" count="1"/>
+        <line num="107" type="stmt" count="1"/>
+        <line num="108" type="stmt" count="1"/>
+        <line num="109" type="stmt" count="1"/>
+        <line num="110" type="stmt" count="1"/>
+        <metrics loc="112" ncloc="57" classes="1" methods="6" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="26" coveredstatements="14" elements="32" coveredelements="15"/>
+      </file>
+      <file name="/var/www/html/wpblog1/wp-content/plugins/my-gallery-wpcs/inc/traits/trait-config-parse.php">
+        <class name="Trait_Config_Parse" namespace="My_Slider_Gallery" fullPackage="Traits" package="Traits">
           <metrics complexity="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="5" coveredstatements="5" elements="6" coveredelements="6"/>
         </class>
-        <line num="21" type="method" name="setConfig" visibility="protected" complexity="1" crap="1" count="9"/>
-        <line num="24" type="stmt" count="9"/>
-        <line num="26" type="stmt" count="9"/>
-        <line num="27" type="stmt" count="9"/>
-        <line num="28" type="stmt" count="9"/>
-        <line num="29" type="stmt" count="9"/>
+        <line num="21" type="method" name="set_config" visibility="protected" complexity="1" crap="1" count="7"/>
+        <line num="24" type="stmt" count="7"/>
+        <line num="26" type="stmt" count="7"/>
+        <line num="27" type="stmt" count="7"/>
+        <line num="28" type="stmt" count="7"/>
+        <line num="29" type="stmt" count="7"/>
         <metrics loc="32" ncloc="17" classes="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="5" coveredstatements="5" elements="6" coveredelements="6"/>
       </file>
-      <file name="/var/www/html/wpblog1/wp-content/plugins/my-gallery/inc/Traits/Helpers.php">
-        <class name="Helpers" namespace="MyGallery\Traits" fullPackage="Models" package="Models">
-          <metrics complexity="4" methods="3" coveredmethods="3" conditionals="0" coveredconditionals="0" statements="7" coveredstatements="7" elements="10" coveredelements="10"/>
+      <file name="/var/www/html/wpblog1/wp-content/plugins/my-gallery-wpcs/inc/traits/trait-helpers.php">
+        <class name="Trait_Helpers" namespace="My_Slider_Gallery" fullPackage="Traits" package="Traits">
+          <metrics complexity="4" methods="3" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="7" coveredstatements="4" elements="10" coveredelements="5"/>
         </class>
-        <line num="21" type="method" name="boolToString" visibility="public" complexity="2" crap="2" count="4"/>
-        <line num="23" type="stmt" count="4"/>
-        <line num="31" type="method" name="removeBrackets" visibility="protected" complexity="1" crap="1" count="11"/>
+        <line num="21" type="method" name="bool_to_string" visibility="public" complexity="2" crap="6.00" count="0"/>
+        <line num="23" type="stmt" count="0"/>
+        <line num="31" type="method" name="remove_brackets" visibility="protected" complexity="1" crap="1" count="11"/>
         <line num="33" type="stmt" count="11"/>
         <line num="34" type="stmt" count="11"/>
         <line num="35" type="stmt" count="11"/>
         <line num="36" type="stmt" count="11"/>
-        <line num="44" type="method" name="removeProblemSymbols" visibility="protected" complexity="1" crap="1" count="1"/>
-        <line num="46" type="stmt" count="1"/>
-        <line num="47" type="stmt" count="1"/>
-        <metrics loc="49" ncloc="22" classes="1" methods="3" coveredmethods="3" conditionals="0" coveredconditionals="0" statements="7" coveredstatements="7" elements="10" coveredelements="10"/>
+        <line num="44" type="method" name="remove_problem_symbols" visibility="protected" complexity="1" crap="2.00" count="0"/>
+        <line num="46" type="stmt" count="0"/>
+        <line num="47" type="stmt" count="0"/>
+        <metrics loc="49" ncloc="22" classes="1" methods="3" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="7" coveredstatements="4" elements="10" coveredelements="5"/>
       </file>
-      <file name="/var/www/html/wpblog1/wp-content/plugins/my-gallery/inc/Traits/Images.php">
-        <class name="Images" namespace="MyGallery\Traits" fullPackage="Models" package="Models">
+      <file name="/var/www/html/wpblog1/wp-content/plugins/my-gallery-wpcs/inc/traits/trait-images.php">
+        <class name="Trait_Images" namespace="My_Slider_Gallery" fullPackage="Traits" package="Traits">
           <metrics complexity="7" methods="2" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="17" coveredstatements="9" elements="19" coveredelements="9"/>
         </class>
-        <line num="22" type="method" name="createImageObject" visibility="protected" complexity="3" crap="3.47" count="11"/>
+        <line num="22" type="method" name="create_image_object" visibility="protected" complexity="3" crap="3.47" count="11"/>
         <line num="24" type="stmt" count="11"/>
         <line num="25" type="stmt" count="11"/>
         <line num="26" type="stmt" count="11"/>
@@ -319,7 +583,7 @@
         <line num="29" type="stmt" count="0"/>
         <line num="30" type="stmt" count="0"/>
         <line num="34" type="stmt" count="11"/>
-        <line num="43" type="method" name="getImageUrl" visibility="protected" complexity="4" crap="6.74" count="11"/>
+        <line num="43" type="method" name="get_image_url" visibility="protected" complexity="4" crap="6.74" count="11"/>
         <line num="45" type="stmt" count="11"/>
         <line num="46" type="stmt" count="11"/>
         <line num="47" type="stmt" count="11"/>
@@ -331,176 +595,21 @@
         <line num="55" type="stmt" count="0"/>
         <metrics loc="57" ncloc="34" classes="1" methods="2" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="17" coveredstatements="9" elements="19" coveredelements="9"/>
       </file>
-      <file name="/var/www/html/wpblog1/wp-content/plugins/my-gallery/inc/Traits/TemplateFactoryFacade.php">
-        <class name="TemplateFactoryFacade" namespace="MyGallery\Traits">
+      <file name="/var/www/html/wpblog1/wp-content/plugins/my-gallery-wpcs/inc/traits/trait-template-factory-facade.php">
+        <class name="Trait_Template_Factory_Facade" namespace="My_Slider_Gallery" fullPackage="Trait.Template.Factory">
           <metrics complexity="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="1" elements="2" coveredelements="2"/>
         </class>
-        <line num="25" type="method" name="getTemplate" visibility="protected" complexity="1" crap="1" count="6"/>
-        <line num="27" type="stmt" count="6"/>
+        <line num="25" type="method" name="get_template" visibility="protected" complexity="1" crap="1" count="2"/>
+        <line num="27" type="stmt" count="2"/>
         <metrics loc="29" ncloc="14" classes="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="1" elements="2" coveredelements="2"/>
       </file>
     </package>
-    <package name="MyGallery\Utils">
-      <file name="/var/www/html/wpblog1/wp-content/plugins/my-gallery/inc/Utils/MenuConfig.php">
-        <class name="MyGallery\Utils\MenuConfig" namespace="MyGallery\Utils" fullPackage="Utils" package="Utils">
-          <metrics complexity="16" methods="4" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="36" coveredstatements="26" elements="40" coveredelements="27"/>
-        </class>
-        <line num="54" type="method" name="__construct" visibility="public" complexity="2" crap="2" count="3"/>
-        <line num="56" type="stmt" count="3"/>
-        <line num="57" type="stmt" count="1"/>
-        <line num="59" type="stmt" count="2"/>
-        <line num="60" type="stmt" count="2"/>
-        <line num="61" type="stmt" count="1"/>
-        <line num="62" type="stmt" count="1"/>
-        <line num="69" type="method" name="get" visibility="public" complexity="4" crap="6.74" count="1"/>
-        <line num="71" type="stmt" count="1"/>
-        <line num="72" type="stmt" count="1"/>
-        <line num="73" type="stmt" count="1"/>
-        <line num="74" type="stmt" count="1"/>
-        <line num="75" type="stmt" count="0"/>
-        <line num="76" type="stmt" count="0"/>
-        <line num="77" type="stmt" count="0"/>
-        <line num="78" type="stmt" count="0"/>
-        <line num="80" type="stmt" count="0"/>
-        <line num="87" type="method" name="verifyFormat" visibility="protected" complexity="6" crap="6.05" count="2"/>
-        <line num="89" type="stmt" count="2"/>
-        <line num="90" type="stmt" count="2"/>
-        <line num="91" type="stmt" count="1"/>
-        <line num="93" type="stmt" count="1"/>
-        <line num="94" type="stmt" count="1"/>
-        <line num="95" type="stmt" count="1"/>
-        <line num="96" type="stmt" count="1"/>
-        <line num="97" type="stmt" count="0"/>
-        <line num="101" type="stmt" count="1"/>
-        <line num="110" type="method" name="wrongFormat" visibility="protected" complexity="4" crap="4.59" count="1"/>
-        <line num="112" type="stmt" count="1"/>
-        <line num="113" type="stmt" count="1"/>
-        <line num="114" type="stmt" count="1"/>
-        <line num="115" type="stmt" count="1"/>
-        <line num="116" type="stmt" count="0"/>
-        <line num="117" type="stmt" count="0"/>
-        <line num="118" type="stmt" count="0"/>
-        <line num="120" type="stmt" count="0"/>
-        <line num="122" type="stmt" count="1"/>
-        <line num="123" type="stmt" count="1"/>
-        <line num="124" type="stmt" count="1"/>
-        <line num="126" type="stmt" count="1"/>
-        <metrics loc="128" ncloc="78" classes="1" methods="4" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="36" coveredstatements="26" elements="40" coveredelements="27"/>
-      </file>
-    </package>
-    <package name="MyGallery\View">
-      <file name="/var/www/html/wpblog1/wp-content/plugins/my-gallery/inc/View/MediaButtons.php">
-        <class name="MyGallery\View\MediaButtons" namespace="MyGallery\View">
-          <metrics complexity="3" methods="3" coveredmethods="3" conditionals="0" coveredconditionals="0" statements="7" coveredstatements="7" elements="10" coveredelements="10"/>
-        </class>
-        <line num="34" type="method" name="__construct" visibility="public" complexity="1" crap="1" count="1"/>
-        <line num="36" type="stmt" count="1"/>
-        <line num="37" type="stmt" count="1"/>
-        <line num="38" type="stmt" count="1"/>
-        <line num="44" type="method" name="registerFilters" visibility="protected" complexity="1" crap="1" count="1"/>
-        <line num="46" type="stmt" count="1"/>
-        <line num="47" type="stmt" count="1"/>
-        <line num="54" type="method" name="renderMediaButton" visibility="public" complexity="1" crap="1" count="1"/>
-        <line num="56" type="stmt" count="1"/>
-        <line num="57" type="stmt" count="1"/>
-        <metrics loc="59" ncloc="26" classes="1" methods="3" coveredmethods="3" conditionals="0" coveredconditionals="0" statements="7" coveredstatements="7" elements="10" coveredelements="10"/>
-      </file>
-      <file name="/var/www/html/wpblog1/wp-content/plugins/my-gallery/inc/View/Slider.php">
-        <class name="MyGallery\View\Slider" namespace="MyGallery\View">
-          <metrics complexity="17" methods="6" coveredmethods="4" conditionals="0" coveredconditionals="0" statements="41" coveredstatements="38" elements="47" coveredelements="42"/>
-        </class>
-        <line num="33" type="method" name="__construct" visibility="public" complexity="1" crap="1" count="4"/>
-        <line num="35" type="stmt" count="4"/>
-        <line num="36" type="stmt" count="4"/>
-        <line num="37" type="stmt" count="4"/>
-        <line num="43" type="method" name="registerShortcode" visibility="protected" complexity="1" crap="1" count="4"/>
-        <line num="45" type="stmt" count="4"/>
-        <line num="46" type="stmt" count="4"/>
-        <line num="55" type="method" name="render" visibility="public" complexity="5" crap="5.12" count="4"/>
-        <line num="57" type="stmt" count="4"/>
-        <line num="58" type="stmt" count="0"/>
-        <line num="64" type="stmt" count="4"/>
-        <line num="65" type="stmt" count="4"/>
-        <line num="66" type="stmt" count="0"/>
-        <line num="69" type="stmt" count="4"/>
-        <line num="72" type="stmt" count="4"/>
-        <line num="73" type="stmt" count="4"/>
-        <line num="74" type="stmt" count="4"/>
-        <line num="75" type="stmt" count="4"/>
-        <line num="78" type="stmt" count="4"/>
-        <line num="79" type="stmt" count="4"/>
-        <line num="87" type="method" name="getTitle" visibility="protected" complexity="2" crap="2" count="4"/>
-        <line num="88" type="stmt" count="4"/>
-        <line num="89" type="stmt" count="2"/>
-        <line num="91" type="stmt" count="2"/>
-        <line num="100" type="method" name="getConfig" visibility="protected" complexity="2" crap="2" count="4"/>
-        <line num="101" type="stmt" count="4"/>
-        <line num="102" type="stmt" count="2"/>
-        <line num="104" type="stmt" count="2"/>
-        <line num="120" type="method" name="fixParsingProblems" visibility="protected" complexity="6" crap="6.01" count="1"/>
-        <line num="122" type="stmt" count="1"/>
-        <line num="123" type="stmt" count="1"/>
-        <line num="124" type="stmt" count="1"/>
-        <line num="125" type="stmt" count="1"/>
-        <line num="126" type="stmt" count="1"/>
-        <line num="127" type="stmt" count="1"/>
-        <line num="128" type="stmt" count="1"/>
-        <line num="129" type="stmt" count="0"/>
-        <line num="132" type="stmt" count="1"/>
-        <line num="133" type="stmt" count="1"/>
-        <line num="134" type="stmt" count="1"/>
-        <line num="136" type="stmt" count="1"/>
-        <line num="137" type="stmt" count="1"/>
-        <line num="140" type="stmt" count="1"/>
-        <line num="141" type="stmt" count="1"/>
-        <line num="143" type="stmt" count="1"/>
-        <line num="145" type="stmt" count="1"/>
-        <line num="146" type="stmt" count="1"/>
-        <metrics loc="148" ncloc="94" classes="1" methods="6" coveredmethods="4" conditionals="0" coveredconditionals="0" statements="41" coveredstatements="38" elements="47" coveredelements="42"/>
-      </file>
-      <file name="/var/www/html/wpblog1/wp-content/plugins/my-gallery/inc/View/TemplateRender.php">
-        <class name="MyGallery\View\TemplateRender" namespace="MyGallery\View">
-          <metrics complexity="12" methods="6" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="26" coveredstatements="18" elements="32" coveredelements="20"/>
-        </class>
-        <line num="35" type="method" name="__construct" visibility="public" complexity="2" crap="2" count="6"/>
-        <line num="37" type="stmt" count="6"/>
-        <line num="38" type="stmt" count="6"/>
-        <line num="39" type="stmt" count="6"/>
-        <line num="40" type="stmt" count="6"/>
-        <line num="42" type="stmt" count="6"/>
-        <line num="49" type="method" name="isTemplateExists" visibility="protected" complexity="3" crap="3.33" count="6"/>
-        <line num="51" type="stmt" count="6"/>
-        <line num="52" type="stmt" count="0"/>
-        <line num="54" type="stmt" count="6"/>
-        <line num="62" type="method" name="addNewTemplate" visibility="public" complexity="1" crap="2.00" count="0"/>
-        <line num="64" type="stmt" count="0"/>
-        <line num="65" type="stmt" count="0"/>
-        <line num="66" type="stmt" count="0"/>
-        <line num="67" type="stmt" count="0"/>
-        <line num="74" type="method" name="addArguments" visibility="public" complexity="1" crap="1" count="4"/>
-        <line num="76" type="stmt" count="4"/>
-        <line num="77" type="stmt" count="4"/>
-        <line num="84" type="method" name="renderWithEcho" visibility="public" complexity="1" crap="2.00" count="0"/>
-        <line num="86" type="stmt" count="0"/>
-        <line num="87" type="stmt" count="0"/>
-        <line num="94" type="method" name="render" visibility="public" complexity="4" crap="4.02" count="5"/>
-        <line num="96" type="stmt" count="5"/>
-        <line num="97" type="stmt" count="0"/>
-        <line num="100" type="stmt" count="5"/>
-        <line num="101" type="stmt" count="4"/>
-        <line num="102" type="stmt" count="4"/>
-        <line num="106" type="stmt" count="5"/>
-        <line num="107" type="stmt" count="5"/>
-        <line num="108" type="stmt" count="5"/>
-        <line num="109" type="stmt" count="5"/>
-        <line num="110" type="stmt" count="5"/>
-        <metrics loc="112" ncloc="57" classes="1" methods="6" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="26" coveredstatements="18" elements="32" coveredelements="20"/>
-      </file>
-    </package>
-    <file name="/var/www/html/wpblog1/wp-content/plugins/my-gallery/inc/index.php">
-      <line num="2" type="stmt" count="0"/>
-      <metrics loc="1" ncloc="0" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+    <file name="/var/www/html/wpblog1/wp-content/plugins/my-gallery-wpcs/inc/index.php">
+      <metrics loc="2" ncloc="0" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
     </file>
-    <metrics files="14" loc="1485" ncloc="840" classes="13" methods="67" coveredmethods="41" conditionals="0" coveredconditionals="0" statements="339" coveredstatements="274" elements="406" coveredelements="315"/>
+    <file name="/var/www/html/wpblog1/wp-content/plugins/my-gallery-wpcs/inc/interfaces/interface-menu-page.php">
+      <metrics loc="24" ncloc="9" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+    </file>
+    <metrics files="21" loc="1859" ncloc="1028" classes="19" methods="81" coveredmethods="36" conditionals="0" coveredconditionals="0" statements="406" coveredstatements="237" elements="487" coveredelements="273"/>
   </project>
 </coverage>

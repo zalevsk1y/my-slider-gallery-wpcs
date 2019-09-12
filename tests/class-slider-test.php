@@ -1,16 +1,16 @@
 <?php
-use MyGallery\View\Slider;
+use My_Slider_Gallery\Slider;
 use Spatie\Snapshots\MatchesSnapshots;
 
 /**
- * Class SliderTest
+ * Class Slider_For_Test
  *
  * @package MyGallery
  */
 
-class SliderForTest extends Slider{
+class Slider_For_Test extends Slider{
 
-    protected function createImageObject(array $imageIds,$size='thumbnail'){
+    protected function create_image_object(array $image_ids,$size='thumbnail'){
         $images=[];
         for($i=1;$i<7;$i++){
             $images[]=(object)array(
@@ -29,28 +29,28 @@ class SliderForTest extends Slider{
         return $images;
     }   
 }
-Class SliderTest  extends \WP_UnitTestCase
+Class Slider_Test  extends \WP_UnitTestCase
 {   use MatchesSnapshots;
     public function setUp()
     {
 
         parent::setUp();
-        $this->templatePath = __DIR__ . '/../template/slider/content-slider.php';
-        $this->postId=$this->factory()->attachment->create();
-        $this->instance = new SliderForTest($this->templatePath);
+        $this->template_path = __DIR__ . '/../template/slider/content-slider.php';
+        $this->post_id=$this->factory()->attachment->create();
+        $this->instance = new Slider_For_Test($this->template_path);
         
        
     }
      /**
-     * @dataProvider codeParsing
+     * @dataProvider code_parsing
      */
-    public function testCreateSlider($attr,$expected){
+    public function test_create_slider($attr,$expected){
         $content=$this->instance->render($attr);
         $this->assertMatchesSnapshot($content);
         //$this->expectOutputString($content);
         //$snapshot=include $expected;
     }
-    public function codeParsing()
+    public function code_parsing()
     {
         return [
             [array('ids'=>'1,2,3,4,5,6,7','title'=>'Test Gallery','config'=>'1061'),'snapshot-1'],

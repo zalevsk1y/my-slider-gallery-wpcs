@@ -10,12 +10,6 @@
 	<filter>
   		<whitelist processUncoveredFilesFromWhitelist="true">
 			<directory suffix=".php">inc/</directory>
-			<exclude>
-				<directory suffix=".php">inc/Core</directory>
-				<directory suffix=".php">inc/Message</directory>
-				<directory suffix=".php">inc/Interfaces</directory>
-				<directory suffix=".php">inc/Factories</directory>
-			</exclude>
   		</whitelist>
 	</filter>
 	<testsuites>
