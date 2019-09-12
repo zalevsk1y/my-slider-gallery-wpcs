@@ -14,7 +14,7 @@ use My_Slider_Gallery\Shortcode_Model;
  */
 class Shortcode_Factory
 {
-    public $default_settings;
+    public static $default_settings;
     /**
      * Init function.Set default settings for shortcode parameters.
      *
@@ -23,7 +23,7 @@ class Shortcode_Factory
      */
     public function __construct(\stdClass $settings)
     {
-        $this->default_settings = $settings;
+        self::$default_settings = $settings;
     }
     /**
      * Getter for creating new instance.
@@ -33,8 +33,8 @@ class Shortcode_Factory
      */
     public function get(string $code)
     {
-        if ($this->default_settings) {
-            return new Shortcode_Model($code, $this->default_settings);
+        if (self::$default_settings) {
+            return new Shortcode_Model($code, self::$default_settings);
         }
     }
 }
