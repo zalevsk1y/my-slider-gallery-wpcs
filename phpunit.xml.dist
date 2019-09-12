@@ -11,9 +11,11 @@
   		<whitelist processUncoveredFilesFromWhitelist="true">
 			<directory suffix=".php">inc/</directory>
 			<exclude>
-				<file>class-main.php</file>
-				<file>class-success.php</file>
-				<file>class-errors.php</file>
+				<file>inc/classes/class-main.php</file>
+				<file>inc/classes/class-menu-config.php</file>
+				<file>inc/classes/class-menu-page.php</file>
+				<file>inc/classes/class-success.php</file>
+				<file>inc/classes/class-errors.php</file>
 			</exclude>
   		</whitelist>
 
