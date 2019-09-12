@@ -214,7 +214,7 @@ class Shortcode_Model
      */
     protected function check_shortcode_name()
     {
-        preg_match($this->shortcode_nam_pattern, $this->original_code, $match);
+        preg_match($this->shortcode_name_pattern, $this->original_code, $match);
 
         return isset($match['name']);
     }

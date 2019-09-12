@@ -56,7 +56,7 @@ class Post_Model
     /**
      * Init function.
      *
-     * @param integer $postId Id of post.
+     * @param integer $post_id Id of post.
      */
     public function __construct(int $post_id,Shortcode_Factory $factory)
     {

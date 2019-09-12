@@ -237,7 +237,7 @@ class Shortcode_Controller
     /**
      * Decode response to json.
      *
-     * @param object|array|boolean $postData Data that should be send to user.
+     * @param object|array|boolean $post_data Data that should be send to user.
      * @return string json
      */
     protected function prepare_response($post_data)

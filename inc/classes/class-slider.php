@@ -47,9 +47,9 @@ class Slider
      *
      * @param string $template_path Path to template file.
      */
-    public function __construct(string $templatePath)
+    public function __construct(string $template_path)
     {
-        $this->template = $this->get_template($templatePath);
+        $this->template = $this->get_template($template_path);
         $this->register_shortcode();
     }
     /**
