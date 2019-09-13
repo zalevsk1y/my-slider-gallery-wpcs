@@ -55,7 +55,6 @@ class Menu_Config {
 	 * Init function.
 	 *
 	 * @param string $config_path Path to file with config array.
-	 * @return void
 	 * @throws \Exception If template file does not exist.
 	 */
 	public function __construct( string $config_path ) {

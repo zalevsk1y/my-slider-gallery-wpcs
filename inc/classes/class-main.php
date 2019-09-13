@@ -31,7 +31,10 @@ class Main {
 	 * @param Menu_Config $admin_config Config class with params for menu.
 	 */
 	public function __construct( Menu_Config $admin_config ) {
-		$this->config_menu = $admin_config->get();
+		$config = $admin_config->get();
+		if ( is_object( $config ) ) {
+			$this->config_menu = $config;
+		}
 		$this->register_actions();
 	}
 

@@ -22,7 +22,7 @@ class Shortcode_Factory {
 	/**
 	 * Default settings for gallery.
 	 *
-	 * @var stdClass
+	 * @var \stdClass
 	 */
 	public static $default_settings;
 	/**
