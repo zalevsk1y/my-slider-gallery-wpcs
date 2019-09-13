@@ -1,8 +1,14 @@
 <?php
+/**
+ * Class success message storage.
+ *
+ * @package Message
+ */
+
 namespace My_Slider_Gallery;
 
 /**
- * Class success message storage
+ * Class success message storage.
  *
  * PHP version 7.0
  *
@@ -10,19 +16,18 @@ namespace My_Slider_Gallery;
  * @author   Evgeniy S.Zalevskiy <2600@ukr.net>
  * @license  MIT
  */
-class Success
-{
-/**
- * Text message
- *
- * @param string $slug Slug of the message.
- * @return string|void
- */
-    public static function text(string $slug)
-    {
-        switch ($slug) {
-            case 'SUCCESS':
-                return \__('Operation was successful.', MYGALLERY_PLUGIN_SLU);
-        }
-    }
+class Success {
+
+	/**
+	 * Text message
+	 *
+	 * @param string $slug Slug of the message.
+	 * @return string|void
+	 */
+	public static function text( string $slug ) {
+		switch ( $slug ) {
+			case 'SUCCESS':
+				return \__( 'Operation was successful.', MYGALLERY_PLUGIN_SLU );
+		}
+	}
 }
