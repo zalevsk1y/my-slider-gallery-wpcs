@@ -1,6 +1,7 @@
 
 import baguetteBox from 'baguettebox.js';
 import lightSlider from 'lightslider';
+import '../../../../public/css/my-slider-styles.css';
 import 'baguettebox.js/dist/baguetteBox.css';
 import 'lightslider/dist/css/lightslider.css';
 import 'lightslider/dist/img/controls.png'
