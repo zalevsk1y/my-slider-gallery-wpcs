@@ -48,14 +48,11 @@ class Main {
 	public function enqueue_admin_scripts( $hook ) {
 		// add styles for icons and buttons.
 		wp_enqueue_style( MYGALLERY_PLUGIN_SLUG . '-main-style', MYGALLERY_PLUGIN_URL . '/public/css/my-gallery.css', array(), MYGALLERY_PLUGIN_VERSION );
-		// add script for "edit Post" page.
-		if ( 'post.php' === $hook ) {
+		// add script for "edit Post" page or "Add Post" page..
+		if ( 'post.php' === $hook||'post-new.php' === $hook ) {
 			wp_enqueue_script( MYGALLERY_PLUGIN_SLUG . '-post-edit-script' );
 		}
-		// add script for "Add Post" page.
-		if ( 'post-new.php' === $hook ) {
-			wp_enqueue_script( MYGALLERY_PLUGIN_SLUG . '-post-new-script' );
-		}
+	
 		// Add styles and scripts for "Add gallery" custom menu page.
 		if ( false !== strrpos( $hook, $this->config_menu->menu->subs[0]->menu_slug ) ) {
 			\wp_enqueue_style( MYGALLERY_PLUGIN_SLUG . '-add-gallery-style', MYGALLERY_PLUGIN_URL . '/public/css/add-gallery.css', array(), MYGALLERY_PLUGIN_VERSION );

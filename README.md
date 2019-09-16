@@ -1,6 +1,6 @@
 !['Alt text'](public/images/banner_header_2.0.png)
 
-[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/zalevsk1y/my-slider-gallery/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/zalevsk1y/my-slider-gallery/?branch=master) [![Build Status](https://scrutinizer-ci.com/g/zalevsk1y/my-slider-gallery/badges/build.png?b=master)](https://scrutinizer-ci.com/g/zalevsk1y/my-slider-gallery/build-status/master) [![Code Coverage](https://scrutinizer-ci.com/g/zalevsk1y/my-slider-gallery/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/zalevsk1y/my-slider-gallery/?branch=master)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/zalevsk1y/my-slider-gallery-wpcs/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/zalevsk1y/my-slider-gallery-wpcs/badges/quality-score.png?b=master) [![Build Status](https://scrutinizer-ci.com/g/zalevsk1y/my-slider-gallery-wpcs/badges/build.png?b=master)](https://scrutinizer-ci.com/g/zalevsk1y/my-slider-gallery-wpcs/build-status/master) [![Code Coverage](https://scrutinizer-ci.com/g/zalevsk1y/my-slider-gallery-wpcs/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/zalevsk1y/my-slider-gallery-wpcs/?branch=master)
 
 # My Slider Gallery Wordpress Plugin
 
@@ -18,13 +18,8 @@ Demo - [My Slider Gallery](https://zalevsk1y.github.io/my-slider-gallery/)
 *   Supports guttenberg editor and classic editor.
 *   Easy customizable
 *   Shortcode support.
+*   Follow Wordpress Coding Standards
 
-### Installing
-
-
-1. You can clone the GitHub repository: `https://github.com/zalevsk1y/my-slider-gallery.git`
-2. Or download it directly as a ZIP file: [https://github.com/zalevsk1y/my-slider-gallery/archive/master.zip](https://wordpress.org/plugins/mygallery/)
-3. Wordpress download: [https://wordpress.org/plugins/mygallery/](https://wordpress.org/plugins/mygallery/)
 
 This will download the latest developer copy of My Slider Gallery.
 
@@ -79,6 +74,6 @@ You can also set the gallery title in the misc settings item
 
 ## Bugs ##
 
-If you find an issue, let us know [here](https://github.com/zalevsk1y/my-slider-gallery/issues/new)!
+If you find an issue, let us know [here](https://github.com/zalevsk1y//my-slider-gallery-wpcs/issues/new)!
 
 

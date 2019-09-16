@@ -9,7 +9,6 @@ module.exports = {
 
 	entry:{
 		 'post-edit':'./src/packages/post-edit/src/index.js',
-		 'post-new':'./src/packages/post-new/src/index.js',
 		 'slider':'./src/packages/slider/src/index.js',
 		 'add-gallery':'./src/packages/add-gallery/src/index.js'
 		},	
